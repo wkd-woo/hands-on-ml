@@ -19,6 +19,9 @@ assert tf.__version__ >= "2.0"
 import numpy as np
 import os
 
+
+print('2017265104 장재영')
+
 # to make this notebook's output stable across runs
 np.random.seed(42)
 # To plot pretty figures
@@ -144,7 +147,7 @@ X_new = X_test[:3]
 y_proba = model.predict(X_new)
 print("\ny_proba.round(2): \n",
       y_proba.round(2))
-y_pred = (model.predict(X_new) > 0.5).astype("int32")
+y_pred = model.predict_classes(X_new)
 print("\ny_pred: \n",
       y_pred)
 print("\nnp.array(class_names)[y_pred]: \n",
