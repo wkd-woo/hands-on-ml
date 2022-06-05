@@ -6,3 +6,9 @@ venv
 .idea
 .vscode
 
+local-server/node_modules
+
+local-server2/node_modules
+
+ch22/test/*
+ch22/train/*

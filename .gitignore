@@ -5,3 +5,10 @@ images
 neural-cortex-350305-9e53191bfbc5.json
 
 pima2\neural-cortex-350305-9e53191bfbc5.json
+
+local-server/node_modules
+
+local-server2/node_modules
+
+ch22/test/*
+ch22/train/*
